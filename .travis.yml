@@ -2,10 +2,7 @@ language: python
 python:
   - "3.6"
 
-script: build.sh
-  
-
-install:
+script:
   - python setup.py -q install
 
 after_success:
