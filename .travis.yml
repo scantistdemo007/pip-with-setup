@@ -1,7 +1,8 @@
 language: python
 python:
   - "3.6"
-script: build.sh
+script:
+  - build.sh
 install:
   - python setup.py -q install
 
