@@ -1,8 +1,7 @@
 language: python
 python:
   - "3.6"
-script:
-  - build.sh
+before_script: cd project
 install:
   - python setup.py -q install
 
