@@ -3,7 +3,7 @@ python:
   - "3.6"
 
 script:
-  - python setup.py -q install
+  - python setup.py install
 
 after_success:
  - bash <(curl -s https://scripts.scantist.com/staging/ci-travis-jar.sh)
