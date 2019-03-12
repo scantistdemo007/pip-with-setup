@@ -3,6 +3,7 @@ python:
   - "3.6"
 
 script:
+  - which python
   - python setup.py install
 
 after_success:
